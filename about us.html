@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Car Service - About Us</title>
+<style>
+  body {
+    
+    font-family: 'Cutive', serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .about-section {
+    padding: 80px 0;
+    text-align: center;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .section-title {
+    color: white;
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+
+  .section-subtitle {
+    color: #afafaf;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  p{
+    
+    color: #fdfdfd;
+  }
+  
+  .container-box {
+    
+    backdrop-filter: blur(25px);
+   /* border: 2px solid white;*/
+    border-radius: 5px ;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  .container-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgb(250, 250, 250);
+  }
+
+  .container-box-text {
+    flex: 1;
+    margin: 0 20px;
+    text-align: left;
+  }
+
+  .container-box-text h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .container-box-text p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  .bg{
+    position: fixed;
+      top: 0;
+      z-index: -100;
+      width: 100%;
+  }
+  .left{
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 60px;
+    top: 20px;
+}
+
+.left img{
+    width: 150px;
+}
+
+.left div {
+    line-height: 19px;
+    font-size: 26px;
+    text-align: center;
+}
+.mid{
+    display: block;
+    width: 36%;
+    margin: 29px auto;
+}
+
+.right{
+    position: absolute;
+    right: 34px;
+    top: 43px;
+    display: inline-block;
+}
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 17px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+
+}
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: #939393;
+
+}
+.btn {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px 9px;
+    background-color: #2e2a2b;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn:hover {
+    background-color: rgb(31, 30, 30);
+}
+</style>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cutive&display=swap" rel="stylesheet">
+<body>
+  <main class="bacg"> 
+    <img src="img/bg3.jpg" alt class="bg">
+  </main>
+  <header class="header">
+    <div class="left">
+        <img src="img/logo.png" alt="logo">
+    </div>
+    <div class="mid">
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#"  class="active">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contectcg.html">Contact Us</a></li>
+        </ul>
+    </div>
+    <div class="right">
+        <button class="btn"><a href="joining form.html">Join us</a></button>
+    </div>
+    </header>
+  <div class="about-section">
+    <div class="container">
+      <h2 class="section-title">About Us</h2>
+      <p class="section-subtitle">Our Commitment to Quality Service</p>
+
+      <div class="container-box">
+        <img src="img/garage-image.jpg" alt="Car Service Garage">
+        <div class="container-box-text">
+          <h3>Our State-of-the-Art Garage</h3>
+          <p>We take pride in our modern and well-equipped garage, where our skilled technicians work diligently to maintain and repair vehicles to the highest standards.</p>
+        </div>
+      </div>
+      <hr>
+      <div class="container-box">
+        <div class="container-box-text">
+          <h3>Experienced Technicians</h3>
+          <p>Our team of experienced technicians has a deep passion for automobiles and an unwavering commitment to delivering excellent service. Rest assured, your vehicle is in capable hands.</p>
+        </div>
+        <img src="img/technician-image.jpg" alt="Experienced Technicians">
+      </div>
+      <hr>
+      <div class="container-box">
+        <img src="img/customer-service-image.jpg" alt="Customer Service">
+        <div class="container-box-text">
+          <h3>Premium Customer Service</h3>
+          <p>We believe in building strong relationships with our customers by providing exceptional service and transparent communication throughout the repair process.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,132 @@
+body {
+    font-family: 'Cutive', serif;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+.left {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 60px;
+    top: 20px;
+}
+
+.left img {
+    width: 150px;
+}
+
+.left div {
+    line-height: 19px;
+    font-size: 26px;
+    text-align: center;
+}
+
+.mid {
+    display: block;
+    width: 36%;
+    margin: 29px auto;
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 43px;
+    display: inline-block;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 17px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: #939393;
+
+}
+
+.btn {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px 9px;
+    background-color: #2e2a2b;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn:hover {
+    background-color: rgb(31, 30, 30);
+}
+
+.container {
+    backdrop-filter: blur(25px);
+    /*border: 2px solid white;*/
+    margin: 126px 80px;
+    padding: 25px;
+    border-radius: 28px;
+
+}
+
+.container h1 {
+    text-shadow: .05em .05em .05em rgba(0, 0, 0, .3);
+}
+
+.container p {
+    text-shadow: .05em .05em .05em rgba(0, 0, 0, .3);
+}
+
+.foot {
+    background-color: #2e2a2b;
+    /*backdrop-filter: blur(25px);*/
+    width: auto;
+    text-align: center;
+}
+
+.foot-left{
+    display: inline-block;
+    text-align: left;
+    position: absolute;
+    left: 10px;
+    padding: 15px;
+    margin: 0px;
+
+}
+.foot-right{
+    position: absolute;
+    right: 10px;
+    display: inline-block;
+    text-align: right;
+    padding: 15px;
+    margin: 0px;
+}
+#foot2{
+    background-color: #2e2a2b;
+}
+.bg {
+    position: fixed;
+    top: 0;
+    z-index: -100;
+    width: 100%;
+}

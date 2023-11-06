@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Service - Our Services</title>
+  <style>
+    body {
+      font-family: 'Cutive', serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .services-section {
+
+      padding: 80px 0;
+      text-align: center;
+    }
+
+    .container {
+      /*max-width: 1200px;*/
+      margin: 0 auto;
+      padding: 0;
+    }
+
+    .section-title {
+      color: white;
+      font-size: 36px;
+      margin-bottom: 30px;
+    }
+
+    .service-category {
+      /*border: 2px solid white;*/
+      backdrop-filter: blur(25px);
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 50px;
+    }
+
+    .service-category img {
+      box-shadow: 0 2px 5px rgb(250, 250, 250);
+      max-width: 500px;
+      height: auto;
+      margin: 10px;
+    }
+
+    .service-category-description {
+      flex: 1;
+      text-align: left;
+    }
+
+    .service-category-title {
+      color: white;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .service-category-text {
+      color: #fdfdfd;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    .bg {
+      position: fixed;
+      top: 0;
+      z-index: -100;
+      width: 100%;
+    }
+    .left{
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 60px;
+    top: 20px;
+}
+
+.left img{
+    width: 150px;
+}
+
+.left div {
+    line-height: 19px;
+    font-size: 26px;
+    text-align: center;
+}
+.mid{
+    display: block;
+    width: 36%;
+    margin: 29px auto;
+}
+
+.right{
+    position: absolute;
+    right: 34px;
+    top: 43px;
+    display: inline-block;
+}
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 17px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+
+}
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: #939393;
+
+}
+.btn {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px 9px;
+    background-color: #2e2a2b;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn:hover {
+    background-color: rgb(31, 30, 30);
+}
+  </style>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cutive&display=swap" rel="stylesheet">
+<body>
+  <main class="container">
+    <img src="img/bg3.jpg" alt class="bg">
+  </main>
+  <header class="header">
+    <div class="left">
+        <img src="img/logo.png" alt="logo">
+    </div>
+    <div class="mid">
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about us.html">About Us</a></li>
+            <li><a href="#"  class="active">Services</a></li>
+            <li><a href="contectcg.html">Contact Us</a></li>
+        </ul>
+    </div>
+    <div class="right">
+        <button class="btn"><a href="joining form.html">Join us</a></button>
+    </div>
+  </header>
+
+  <div class="services-section">
+    <div class="container">
+      <h2 class="section-title">Our Services</h2>
+
+      <div class="service-category">
+        <img src="img/engine-service-icon2.jpg" alt="Engine Service">
+        <div class="service-category-description">
+          <h3 class="service-category-title">Engine Services</h3>
+          <p class="service-category-text">From oil changes to complete engine overhauls, our skilled mechanics can
+            handle all aspects of engine maintenance and repair to keep your vehicle running smoothly.</p>
+        </div>
+      </div>
+      <hr>      
+      <div class="service-category">
+        <div class="service-category-description">
+          <h3 class="service-category-title">Brake Services</h3>
+          <p class="service-category-text">We offer comprehensive brake system inspections, brake pad replacements,
+            brake fluid flushes, and more to ensure your vehicle's braking system is safe and reliable.</p>
+        </div>
+        <img src="img/brake-service-icon.jpg" alt="Brake Service">
+      </div>
+      <hr>
+      <div class="service-category">
+        <img src="img/tire-service-icon.jpg" alt="Tire Service">
+        <div class="service-category-description">
+          <h3 class="service-category-title">Tire Services</h3>
+          <p class="service-category-text">From tire rotations and alignments to tire replacements, we provide expert
+            tire services to maximize the lifespan of your tires and improve your vehicle's handling.</p>
+        </div>
+      </div>
+      <hr>
+      <div class="service-category">
+        <div class="service-category-description">
+          <h3 class="service-category-title">Car Washing</h3>
+          <p class="service-category-text">Our professional car washing service will leave your vehicle looking spotless
+            and refreshed. We use eco-friendly products and attention to detail for the best results.</p>
+        </div>
+        <img src="img/car-washing-icon.jpg" alt="Car Washing">
+      </div>
+      <hr>
+      <div class="service-category">
+        <img src="img/car-painting-icon.jpg" alt="Car Painting">
+        <div class="service-category-description">
+          <h3 class="service-category-title">Car Painting</h3>
+          <p class="service-category-text">Transform the look of your vehicle with our expert car painting service. We
+            offer a range of color options and use high-quality paints for a flawless finish.</p>
+        </div>
+      </div>
+      <hr>
+      <div class="service-category">
+        <div class="service-category-description">
+          <h3 class="service-category-title">Car Laminating</h3>
+          <p class="service-category-text">Protect your car's exterior with our durable car laminating service. It adds
+            an extra layer of protection against scratches, UV rays, and environmental factors.</p>
+        </div>
+        <img src="img/car-laminating-icon.jpg" alt="Car Laminating">
+      </div>
+      <hr>
+      <div class="service-category">
+        <img src="img/brake-fluid-icon.jpg" alt="Brake Fluid Exchange">
+        <div class="service-category-description">
+          <h3 class="service-category-title">Brake Fluid Exchange</h3>
+          <p class="service-category-text">Maintain optimal brake performance with our brake fluid exchange service.
+            We'll replace old, contaminated brake fluid to ensure your brakes work effectively.</p>
+        </div>
+      </div>
+      <hr>
+      <div class="service-category">
+        <div class="service-category-description">
+          <h3 class="service-category-title">Spark Plug Replacement</h3>
+          <p class="service-category-text">Upgrade your engine's performance with new spark plugs. Our technicians will
+            replace worn-out plugs to improve fuel efficiency and overall engine power.</p>
+        </div>
+        <img src="img/spark-plug-icon.jpg" alt="Spark Plug Replacement">
+      </div>
+      <hr>
+      <div class="service-category">
+        <img src="img/transmission-fluid-icon.jpg" alt="Transmission Fluid Inspection">
+        <div class="service-category-description">
+          <h3 class="service-category-title">Transmission Fluid Inspection</h3>
+          <p class="service-category-text">Regular transmission fluid inspections help prevent costly transmission
+            issues. Our experts will check the fluid level and quality to ensure smooth gear shifts.</p>
+        </div>
+      </div>
+      <hr>
+      <div class="service-category">
+        <div class="service-category-description">
+          <h3 class="service-category-title">Timing Belt Replacement</h3>
+          <p class="service-category-text">Replace your timing belt based on manufacturer recommendations. A worn timing
+            belt can lead to engine damage, so let us keep your engine's timing in sync.</p>
+        </div>
+        <img src="img/timing-belt-icon.jpg" alt="Timing Belt Replacement">
+      </div>
+      <hr>
+      <div class="service-category">
+        <img src="img/battery-testing-icon.jpg" alt="Battery Testing">
+        <div class="service-category-description">
+          <h3 class="service-category-title">Battery Testing</h3>
+          <p class="service-category-text">Avoid unexpected battery failures with regular battery testing. Our
+            technicians will check your battery's health and recommend replacements if necessary.</p>
+        </div>
+      </div>
+
+</body>
+
+</html>
